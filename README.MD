@@ -4,7 +4,8 @@ This is a web-based quiz application built using HTML, CSS, JS and EXPRESS
 
 The app allows users to select how many questions they'd like to answer, then dynamically presents a random quiz. Once the quiz is complete, users are shown their score and given the option to review their answers or restart the game.
 
-
+Live App
+visit: https://quiz-app-m48f.onrender.com
 
 Features
 
@@ -40,8 +41,12 @@ How to Run the Server
 
 - Clone this repository or download the project folder
 
-- Run the following commands in your terminal:
+- Run the following commands in your terminal to run locally:
 
     ```bash
+    git clone https://github.com/jmat-tarazona/quiz-app.git
+    cd quiz-app
+    npm install
+    node server.js
     npm install
     node server.js
