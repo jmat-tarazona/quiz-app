@@ -55,7 +55,7 @@ function showQuestion() {
       if (letter === q.answer) score++;
       current++;
       clearInterval(timer);
-      setTimeout(showQuestion, 400); // short delay before next question
+      setTimeout(showQuestion, 400); 
     };
     choices.appendChild(btn);
   });
